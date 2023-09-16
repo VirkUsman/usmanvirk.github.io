@@ -17,7 +17,7 @@ const Contact = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="h2 text-center mb-12"
+            className="h2 text-center mb-12 shadow-lg"
           >
             Let &#39;s <span className="text-space">Connect .</span>
           </motion.h2>
