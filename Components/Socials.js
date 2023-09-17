@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import {RiTwitterXLine, RiFacebookLine, RiInstagramLine, RiDribbbleLine, RiBehanceLine, RiPinterestLine, RiTwitterLine} from "react-icons/ri"
+import {RiTwitterXLine, RiFacebookLine, RiInstagramLine, RiLinkedinLine, RiXingLine, } from "react-icons/ri"
 
 const Socials = () => {
     return (
@@ -13,6 +13,12 @@ const Socials = () => {
             </Link>
             <Link href={''} className=" hover:text-space transition-all duration-300">
             <RiInstagramLine />
+            </Link>
+            <Link href={''} className=" hover:text-space transition-all duration-300">
+            <RiLinkedinLine />
+            </Link>
+            <Link href={''} className=" hover:text-space transition-all duration-300">
+            <RiXingLine />
             </Link>
         </div>
     );
